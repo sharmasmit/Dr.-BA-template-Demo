@@ -1,0 +1,104 @@
+@media screen and (max-width: 1025px) {
+
+    header .header-inner,
+    nav .navbar {
+        padding: 15px 30px;
+    }
+
+    .navbar-inner .navbar-logo img {
+        float: left;
+    }
+
+    .navbar-inner .navbar-logo {
+        padding-right: 0px;
+    }
+
+    .navbar .nav-links .links-cont {
+        display: none;
+    }
+
+    .section-1 .shop {
+        padding: 40px 30px;
+    }
+
+    .shop .shop-inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .shop-img-1,
+    .shop-img-3 {
+        max-height: 416px;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+
+    .shop-img-3 {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .shop-inner .shop-img-2 {
+        max-width: 100% !important;
+        max-height: 416px;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .shop-containt {
+        flex-direction: column;
+    }
+
+    .shop-containt .shop-card {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .shop-card img {
+        width: 100%;
+    }
+
+    .section-2 .products .product-inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product-2,
+    .product-3,
+    .product-4 {
+        margin-left: 0px;
+    }
+
+    .section-3 {
+        background-position: left;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer-cont {
+        display: block;
+    }
+
+    .footer-cont .footer-links {
+        padding-top: 15px;
+        align-items: start;
+    }
+
+    .footer-inner .terms {
+        display: block;
+    }
+
+    .footer-inner .policy {
+        padding-top: 15px;
+    }
+
+    .section-3 {
+        background-position: left;
+    }
+
+}
